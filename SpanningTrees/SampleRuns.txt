@@ -1,0 +1,214 @@
+/**============= Sample Runs ===================================
+
+ This program produces the spanning trees for traversal across 12 states.
+ It produces fewest number of highways to be constructed across these states
+ using both depth first and breadth first searches using an adjacency matrix and state name '.txt' files.
+
+
+ Type in the name of the file you wish to open, be exact and include ' .txt ', No need for "'s (quotes) in your input
+
+ Type in the name for the file containing the adjacency matrix
+ adjacency_matrix.txt
+
+ Opening file...
+ closing file.
+ Type in the name for the file containing state names
+ states.txt
+
+ Opening file...
+ closing file.
+
+ [NorthDakota, SouthDakota, Nebraska, Kansas, Minnesota, Iowa, Missouri, Wisconsin, Illinois, Michigan, Indiana, Ohio]
+ from the list, What state would you like to be the root?
+ Michigan
+
+ The following interstate highways need to be constructed between the twelve states in the Midwest region:
+ Using depth-first algorithm rooted at Michigan:
+ Michigan - Indiana
+ Indiana - Illinois
+ Illinois - Iowa
+ Iowa - Minnesota
+ Minnesota - NorthDakota
+ NorthDakota - SouthDakota
+ SouthDakota - Nebraska
+ Nebraska - Kansas
+ Kansas - Missouri
+ Minnesota - Wisconsin
+ Indiana - Ohio
+
+ Using Breadth-first algorithm rooted at Michigan:
+ Michigan - Indiana
+ Michigan - Ohio
+ Michigan - Wisconsin
+ Indiana - Illinois
+ Wisconsin - Iowa
+ Wisconsin - Minnesota
+ Illinois - Missouri
+ Iowa - Nebraska
+ Iowa - SouthDakota
+ Minnesota - NorthDakota
+ Missouri - Kansas
+
+ Process finished with exit code 0
+
+ ===========================================================================================
+
+ This program produces the spanning trees for traversal across 12 states.
+ It produces fewest number of highways to be constructed across these states
+ using both depth first and breadth first searches using an adjacency matrix and state name '.txt' files.
+
+
+ Type in the name of the file you wish to open, be exact and include ' .txt ', No need for "'s (quotes) in your input
+
+ Type in the name for the file containing the adjacency matrix
+ adjacency_matrix.txt
+
+ Opening file...
+ closing file.
+ Type in the name for the file containing state names
+ states.txt
+
+ Opening file...
+ closing file.
+
+ [NorthDakota, SouthDakota, Nebraska, Kansas, Minnesota, Iowa, Missouri, Wisconsin, Illinois, Michigan, Indiana, Ohio]
+ from the list, What state would you like to be the root?
+ NorthDakota
+
+ The following interstate highways need to be constructed between the twelve states in the Midwest region:
+ Using depth-first algorithm rooted at NorthDakota:
+ NorthDakota - Minnesota
+ Minnesota - Iowa
+ Iowa - Illinois
+ Illinois - Indiana
+ Indiana - Michigan
+ Michigan - Ohio
+ Michigan - Wisconsin
+ Illinois - Missouri
+ Missouri - Kansas
+ Kansas - Nebraska
+ Nebraska - SouthDakota
+
+ Using Breadth-first algorithm rooted at NorthDakota:
+ NorthDakota - Minnesota
+ NorthDakota - SouthDakota
+ Minnesota - Iowa
+ Minnesota - Wisconsin
+ SouthDakota - Nebraska
+ Iowa - Illinois
+ Iowa - Missouri
+ Wisconsin - Michigan
+ Nebraska - Kansas
+ Illinois - Indiana
+ Michigan - Ohio
+
+ Process finished with exit code 0
+
+ ==========================================================================
+
+ This program produces the spanning trees for traversal across 12 states.
+ It produces fewest number of highways to be constructed across these states
+ using both depth first and breadth first searches using an adjacency matrix and state name '.txt' files.
+
+
+ Type in the name of the file you wish to open, be exact and include ' .txt ', No need for "'s (quotes) in your input
+
+ Type in the name for the file containing the adjacency matrix
+ adjacency_matrix.txt
+
+ Opening file...
+ closing file.
+ Type in the name for the file containing state names
+ states.txt
+
+ Opening file...
+ closing file.
+
+ [NorthDakota, SouthDakota, Nebraska, Kansas, Minnesota, Iowa, Missouri, Wisconsin, Illinois, Michigan, Indiana, Ohio]
+ from the list, What state would you like to be the root?
+ Ohio
+
+ The following interstate highways need to be constructed between the twelve states in the Midwest region:
+ Using depth-first algorithm rooted at Ohio:
+ Ohio - Indiana
+ Indiana - Illinois
+ Illinois - Iowa
+ Iowa - Minnesota
+ Minnesota - NorthDakota
+ NorthDakota - SouthDakota
+ SouthDakota - Nebraska
+ Nebraska - Kansas
+ Kansas - Missouri
+ Minnesota - Wisconsin
+ Wisconsin - Michigan
+
+ Using Breadth-first algorithm rooted at Ohio:
+ Ohio - Indiana
+ Ohio - Michigan
+ Indiana - Illinois
+ Michigan - Wisconsin
+ Illinois - Iowa
+ Illinois - Missouri
+ Wisconsin - Minnesota
+ Iowa - Nebraska
+ Iowa - SouthDakota
+ Missouri - Kansas
+ Minnesota - NorthDakota
+
+ Process finished with exit code 0
+
+==============================================================================
+
+ This program produces the spanning trees for traversal across 12 states.
+ It produces fewest number of highways to be constructed across these states
+ using both depth first and breadth first searches using an adjacency matrix and state name '.txt' files.
+
+
+ Type in the name of the file you wish to open, be exact and include ' .txt ', No need for "'s (quotes) in your input
+
+ Type in the name for the file containing the adjacency matrix
+ adjacency_matrix.txt
+
+ Opening file...
+ closing file.
+ Type in the name for the file containing state names
+ states.txt
+
+ Opening file...
+ closing file.
+
+ [NorthDakota, SouthDakota, Nebraska, Kansas, Minnesota, Iowa, Missouri, Wisconsin, Illinois, Michigan, Indiana, Ohio]
+ from the list, What state would you like to be the root?
+ Illinois
+
+ The following interstate highways need to be constructed between the twelve states in the Midwest region:
+ Using depth-first algorithm rooted at Illinois:
+ Illinois - Indiana
+ Indiana - Michigan
+ Michigan - Ohio
+ Michigan - Wisconsin
+ Wisconsin - Iowa
+ Iowa - Minnesota
+ Minnesota - NorthDakota
+ NorthDakota - SouthDakota
+ SouthDakota - Nebraska
+ Nebraska - Kansas
+ Kansas - Missouri
+
+ Using Breadth-first algorithm rooted at Illinois:
+ Illinois - Indiana
+ Illinois - Iowa
+ Illinois - Missouri
+ Illinois - Wisconsin
+ Indiana - Michigan
+ Indiana - Ohio
+ Iowa - Minnesota
+ Iowa - Nebraska
+ Iowa - SouthDakota
+ Missouri - Kansas
+ Minnesota - NorthDakota
+
+ Process finished with exit code 0
+
+
+ */
